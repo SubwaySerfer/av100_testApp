@@ -41,6 +41,16 @@ body {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
+.btn {
+  width: 490px;
+  height: 42.5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
 .content_container {
   display: flex;
   flex-direction: column;
@@ -53,7 +63,6 @@ body {
   flex-direction: row;
   justify-content: start;
   align-items: start;
-
   gap: 20px;
 }
 

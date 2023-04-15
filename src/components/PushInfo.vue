@@ -66,7 +66,6 @@ export default {
 .push_label {
   width: 370px;
   box-sizing: border-box;
-  /* height: 67px; */
   font-size: 1.4rem;
   cursor: pointer;
 }
@@ -78,9 +77,7 @@ export default {
 input {
   margin-right: 5px;
 }
-/* input:checked {
-  accent-color: #2dc574;
-} */
+
 fieldset {
   margin-top: 20px;
 }

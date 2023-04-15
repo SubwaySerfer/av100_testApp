@@ -25,26 +25,29 @@
               id="autoBlink"
               name="autoBlink"
               class="other_cards_inp"
-              checked
             />
-            <label for="autoBlink"
-              >Автоматически переходить к новым объявлениям</label
+            <label for="autoBlink" class="label_other"
+              >Автоматически переходить к новым<br />
+              объявлениям</label
             >
           </div>
 
           <div class="other_inp_box">
-            <!-- <input
+            <input
               type="checkbox"
               id="onColor"
               name="onColor"
               class="other_cards_inp"
-            /> -->
+            />
             <label for="onColor" class="label_other"
               >Включить цвета в ленте</label
             >
           </div>
         </fieldset>
-        <button><span>Сохранить</span></button>
+        <div class="fin_other_section"></div>
+        <button class="btn other_btn">
+          <span class="other_btn_text">Сохранить</span>
+        </button>
       </div>
     </div>
   </div>
@@ -84,7 +87,12 @@ export default {
 }
 
 .other_cards_inp {
-  border: 1px solid #2dc574;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
 }
 .other_cards_inp:checked {
   accent-color: #2dc574;
@@ -101,16 +109,48 @@ export default {
   width: 13px;
   position: absolute;
   left: 0;
+  top: 1px;
   content: "";
 }
+
+.other_cards_inp:checked + .label_other::after {
+  background-color: #2dc574;
+  width: 13px;
+  height: 13px;
+}
+
 .label_other {
   padding-left: 20px;
+  display: inline-block;
+  cursor: pointer;
 }
 .other_inp_box {
   margin-bottom: 20px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.2;
   position: relative;
+}
+
+.other_btn {
+  border: 1px solid transparent;
+  background-color: #2dc574;
+  border-radius: 4px;
+}
+
+.fin_other_section {
+  border-top: 1px solid #e1e1e3;
+  height: 0;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.other_btn_text {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: center;
+  font-family: inherit;
 }
 </style>

@@ -37,12 +37,16 @@ export default {
 fieldset {
   margin-top: 1.6rem;
 }
-/* .transform_label {
-} */
+
 .transform_label:not(:last-child) {
   border-bottom: 1px solid #e1e1e3;
   margin-bottom: 1.2rem;
   padding-bottom: 1.2rem;
+}
+.transform_label {
+  font-size: 1.4rem;
+  cursor: pointer;
+  display: inline-block;
 }
 input {
   margin-right: 5px;
