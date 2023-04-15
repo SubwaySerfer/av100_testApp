@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="settings_container">
     <h2></h2>
     <div>
       <p>

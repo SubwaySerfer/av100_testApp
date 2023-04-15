@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="settings_container">
     <h2>Оповещения о новых подборках</h2>
     <div>
       <p>

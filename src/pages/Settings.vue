@@ -40,9 +40,8 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  padding-left: 15px;
-}
+/* .wrapper {
+} */
 
 .content_container {
   display: flex;
@@ -50,8 +49,9 @@ body {
 }
 
 .settings_container {
-  display: flex;
   padding-left: 15px;
+  padding-bottom: 40px;
+  display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: start;
@@ -63,7 +63,7 @@ body {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   line-height: 27px;
-  font-weight: 600px;
+  font-weight: 600;
   width: 250px;
 }
 

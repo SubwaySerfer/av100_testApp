@@ -1,5 +1,5 @@
 <template>
-  <div class="sip_container wrapper">
+  <div class="sip_container settings_container">
     <div class="settings_h2 sip_content">
       <h2 class="sip_h2">Звонок через SIP</h2>
       <div class="sip_radio">
@@ -27,16 +27,19 @@ export default {
   width: 100%;
   flex-direction: row;
   justify-content: start;
-  align-items: center;
+  /* align-items: start; */
+  height: 63px;
 }
 .sip_content {
   display: flex;
   flex-direction: row;
   align-items: center;
+
   gap: 10px;
 }
 .sip_text {
   width: 490px;
+  margin: 0;
 }
 .sip_h2 {
   font-size: 1.8rem;

@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <h2>Прочие настройки</h2>
+  <div class="settings_container">
+    <h2 class="settings_h2">Прочие настройки</h2>
     <div>
       <div>
         <p>Часовой пояс</p>
