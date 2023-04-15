@@ -41,9 +41,6 @@ body {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
-/* .wrapper {
-} */
-
 .content_container {
   display: flex;
   flex-direction: column;
@@ -79,7 +76,8 @@ body {
 
 h2,
 p,
-fieldset {
+fieldset,
+input {
   margin: 0;
 }
 fieldset,
