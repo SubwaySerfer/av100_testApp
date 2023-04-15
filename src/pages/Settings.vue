@@ -39,6 +39,11 @@ html {
 body {
   margin: 0;
 }
+
+.wrapper {
+  padding-left: 15px;
+}
+
 .content_container {
   display: flex;
   flex-direction: column;
@@ -69,10 +74,21 @@ body {
   line-height: 21px;
   color: #686869;
 }
-</style>
-<style scoped>
-h1,
+
 h2 {
   margin: 0;
+}
+</style>
+<style scoped>
+h1 {
+  margin: 0;
+}
+h1 {
+  color: #000;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 37.5px;
+  padding: 15px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <h2>Прочие настройки</h2>
     <div>
       <div>
