@@ -38,6 +38,7 @@ html {
 }
 body {
   margin: 0;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
 /* .wrapper {
@@ -55,6 +56,7 @@ body {
   flex-direction: row;
   justify-content: start;
   align-items: start;
+
   gap: 20px;
 }
 
@@ -75,8 +77,14 @@ body {
   color: #686869;
 }
 
-h2 {
+h2,
+p,
+fieldset {
   margin: 0;
+}
+fieldset,
+legend {
+  padding: 0;
 }
 </style>
 <style scoped>
